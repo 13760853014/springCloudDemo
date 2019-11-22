@@ -14,7 +14,7 @@ spring:
 #      name: root
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.106.81.219:30003/mall_coupon?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    url: jdbc:mysql://10.254.255.185:3306/mall_coupon?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
     username: root
     password: 123456
     druid:
