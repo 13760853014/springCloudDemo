@@ -14,9 +14,9 @@ spring:
 #      name: root
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.24.30.6:3306/mall_coupon?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    url: jdbc:mysql://47.106.81.219:30003/mall_coupon?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
     username: root
-    password: jianke@test123
+    password: 123456
     druid:
       filters: stat
       max-active: 20
@@ -84,6 +84,5 @@ mybatis-plus:
       table-prefix: share_
       #表名、是否使用下划线命名，默认数据库表使用下划线命名
       table-underline: true
-
 
 springfox.documentation.swagger.v2.path: /api-docs
