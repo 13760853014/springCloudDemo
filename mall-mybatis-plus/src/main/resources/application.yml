@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  profiles:
+    active: local
+---
+spring:
+  profiles: default
+  application :
+    name: mall-mybatis-service
